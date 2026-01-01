@@ -35,11 +35,17 @@ root.title("Message Box Examples")
 root.geometry("400x300")
 
 tk.Button(root, text="Show Info", command=info_box).pack(pady=5)
+
 tk.Button(root, text="Show Warning", command=warning_box).pack(pady=5)
+
 tk.Button(root, text="Show Error", command=error_box).pack(pady=5)
+
 tk.Button(root, text="Ask Question", command=question_box).pack(pady=5)
+
 tk.Button(root, text="Ask Ok Cancle", command=ok_cancle_box).pack(pady=5)
+
 tk.Button(root, text="Ask Yes NO", command=yes_no_box).pack(pady=5)
+
 tk.Button(root, text="Ask Retrey Cancle", command=retrey_cancle_box).pack(pady=5)
 
 root.mainloop()
